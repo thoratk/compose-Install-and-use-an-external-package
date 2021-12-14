@@ -1,6 +1,6 @@
 <?php
-use CowSay\Sheep;
+use CowSay\Cow;
 require __DIR__ . '/../vendor/autoload.php';
 
-$hello=new Sheep("sheep");
-echo $hello->say();
+$cow=new Cow("COW");
+echo $cow->say();
